@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="nerv.cn.ibm.com" name="pytest" skipped="0" tests="2" time="0.082" timestamp="2019-11-12T17:54:19.526283"><testcase classname="test_sample" file="test_sample.py" line="1" name="test_file1_method1" time="0.001"><failure message="AssertionError: ffffailllled
+assert 45 == 33
+  -45
+  +33">supply_AA_BB_CC = [25, 35, 45]
+
+    def test_file1_method1(supply_AA_BB_CC):
+    	x=5
+    	y=6
+    	assert x+1 == y,&quot;test ok&quot;
+    	assert x != y,&quot;test failed heihei&quot;
+&gt;   	assert supply_AA_BB_CC[2] == 33, &apos;ffffailllled&apos;
+E    AssertionError: ffffailllled
+E    assert 45 == 33
+E      -45
+E      +33
+
+test_sample.py:7: AssertionError</failure></testcase><testcase classname="test_sample" file="test_sample.py" line="7" name="test_file1_method2" time="0.001"></testcase></testsuite></testsuites>
